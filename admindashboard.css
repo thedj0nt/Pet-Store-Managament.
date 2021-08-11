@@ -1,0 +1,108 @@
+/* .bg{    
+    background-image: url(Group.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%; 
+} */
+body{
+  background-color: #ffffff;
+}
+.card {
+  border-radius: 8px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1400px;
+  height: 500px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.10), 0 0px 0px rgba(0, 0, 0, 0.10);
+}
+
+.flex-container {
+  display: flex;
+  /* background-color: #ffffff; */
+  background-position: center;
+  padding-top: 20px;
+  /* box-shadow: 0 20px 40px rgba(0, 0, 0, 0.19), 0 10px 10px rgba(0, 0, 0, 0.23); */
+}
+
+
+.flex-container > div {
+  background-color: none;
+  /* display: flex;
+  margin: 40px 0; */
+  font-size: 30px;
+  width:50%; 
+}
+
+h3{
+  font-family: poppins;
+  color: #000000;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+input {
+  margin-bottom: 30px;
+  border-radius: 8px;
+  border:none;
+  text-align: center;
+  color: #000000;
+  font-family: poppins;
+  width: 300px;
+  height: 60px;
+  font-size: 20px;
+  transition: border .2s, background-color .2s;
+  background-color: #006eff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.10), 0 0px 0px rgba(0, 0, 0, 0.10);
+  margin: 0;
+}
+
+input:hover,
+input:active {
+  background-color: #00c563;
+  border: 2px solid #00c563;
+}
+
+.btn {
+  background-color: #006eff;
+  border-radius: 6px;
+  color: #ffffff;
+  text-align: center;
+  font-family: poppins;
+  line-height: 10px;
+  width: 260px;
+  height: 60px;
+  cursor: pointer;
+  margin: auto;
+}
+
+/* form.btn:hover,
+form.btn:active {
+  background-color: #3700B3;
+  border: 2px solid #3700B3;
+} */
+
+.b > input{
+  background-color: #ff004c;
+  border-radius: 6px;
+  color: #ffffff; 
+  text-align: center;
+  font-family: poppins;
+  font-size: 16px;
+  line-height: 10px;
+  width: 100px;
+  height: 40px;
+  margin-right: -1290px;
+}
+
+.b > input:hover,:active {
+  background-color: #ff5858;
+  border: 1px solid #ff5858;
+  color: #ffffff;  
+}
+
+img{
+  text-align: center;
+}
+

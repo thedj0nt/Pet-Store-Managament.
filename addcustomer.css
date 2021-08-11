@@ -1,0 +1,231 @@
+.bg{    
+    background-image: url(bg2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 110%; 
+}
+
+.bg1{    
+  background-color: #ffffff;
+}
+
+
+
+.card {
+    border-radius: 15px;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 800px;
+    height: 600px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.10), 0 0px 0px rgba(0, 0, 0, 0.10);
+}
+.card1 {
+  border-radius: 15px;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 800px;
+  height: 810px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0), 0 0px 0px rgba(0, 0, 0, 0);
+}
+
+
+.flex-container {
+    display: flex;
+    background-color: #ffffff;
+    background-position: center;
+    border-radius: 15px;
+    padding-top: 0px;
+    padding-right: 20px;    
+    /* box-shadow: 0 20px 40px rgba(0, 0, 0, 0.19), 0 10px 10px rgba(0, 0, 0, 0.23); */
+}
+  
+  
+  .flex-container > div {
+    background-color: none; 
+    padding: 0px;   
+    border-radius: 15px;   
+    width:50%; 
+   
+}
+
+.flex-container > div > h3{
+    padding-left: 50px;
+    padding-top: 6px;
+    font-family: poppins;
+    /*text-align: center;*/
+    text-align: left;
+    margin: 10px auto;
+    margin-bottom: 10px;
+    color: #3d3d3d;
+}
+
+h1 {
+    padding-top: 30px;
+    padding-bottom: 0px;
+    padding-right: 180px;
+    width: 65%;
+    color: #000000;
+    font-family: poppins;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  h3 {
+    padding-top: 30px; 
+    width: 65%;
+    padding-left: 330px;
+    color: #000000;
+    font-family: poppins;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  h2 {
+    padding-top: 30px; 
+    padding-left: 36px;
+    width: 65%;    
+    color: #000000;
+    font-family: poppins;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+
+  
+  form {
+    text-align: center;
+  }
+  
+  input {
+    padding: 10px 15px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    border:none;
+    text-align: left;
+    color: #000000;
+    font-family: poppins;
+    width: 300px;
+    font-size: 16px;
+    transition: border .2s, background-color .2s;
+    background-color: #f0f0f0;
+  }
+
+
+.field:active ,
+.field:focus{
+/* outline: 1px solid #6200EE !important; */
+outline:none;
+border: 1px solid #00c563;
+
+
+}
+
+
+::placeholder {
+  color: #000000;
+  opacity: 1;
+}
+
+form .field {
+  border-color: 2px solid transparent;
+  border-radius: 6px;
+}
+
+textarea {
+    padding: 10px 15px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    border:none;
+    text-align: left;
+    color: #ffffff;
+    font-family: poppins;
+    width: 500px;
+    height: 100px;
+    font-size: 16px;
+    transition: border .2s, background-color .2s;
+    background-color: #000000;
+    
+  }
+
+.btn > input{
+    background-color: #000000;
+    border-radius: 5px;
+    color: #ffffff; 
+    text-align: center;
+    font-family: poppins;
+    line-height: 10px;
+    width: 80px;
+    height: 40px;
+    margin-right: 720px;  
+  }
+  
+  .btn > input:hover,
+  .btn > input:active {
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    color: #000000;
+  }
+
+  .b > input{
+    background-color: #00c563;
+    border-radius: 5px;
+    color: #ffffff; 
+    text-align: center;
+    font-family: poppins;
+    line-height: 10px;
+    width: 100px;
+    height: 40px;
+    margin-left: 630px;
+  }
+
+  .b > input:hover,
+  .b > input:active {
+    background-color: #ffffff;
+    border: 2px solid #00ac4d;
+    color: #00ac4d;
+  }
+  
+  .bt > input{
+    background-color: #00cc5c;
+    border-radius: 5px;
+    color: #ffffff; 
+    text-align: center;
+    font-family: poppins;
+    line-height: 10px;
+    width: 100px;
+    height: 40px;
+    /* margin-left: 630px; */
+  }
+
+  .bt > input:hover,
+  .bt > input:active {
+    background-color: #008f3c;
+    border: 2px solid #008f3c;
+    color: #ffffff;
+  }
+
+  .btd > input{
+    background-color: #cc0000;
+    border-radius: 5px;
+    color: #ffffff; 
+    text-align: center;
+    font-family: poppins;
+    line-height: 10px;
+    width: 100px;
+    height: 40px;
+    /* margin-left: 630px; */
+  }
+
+  .btd > input:hover,
+  .btd > input:active {
+    background-color: #8f0000;
+    border: 2px solid #8f0000;
+    color: #ffffff;
+  }
+  
+
+  
